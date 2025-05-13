@@ -1,0 +1,123 @@
+/* Reset & base font */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fffaf5;
+    color: #4b2e2e; /* Cocoa brown */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #b76e79, #cd7f32); /* Rose gold to bronze */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    background-color: #f7e7ce; /* Champagne */
+    padding: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #4b2e2e;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #cd7f32; /* Bronze */
+    color: #fff;
+}
+
+/* Main Content Sections */
+section, article, aside {
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+/* Lists */
+ul {
+    background-color: #4b2e2e;
+    padding: 15px;
+}
+
+ul li {
+    background-color: #b76e79; /* Rose gold */
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ol {
+    background-color: #cd7f32; /* Bronze */
+    padding: 15px;
+}
+
+ol li {
+    background-color: #e0c097; /* Light gold */
+    color: #4b2e2e;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* Description list */
+dl {
+    background-color: #f7e7ce; /* Champagne */
+    padding: 20px;
+}
+
+dt {
+    background-color: #e0c097; /* Light gold */
+    padding: 8px;
+}
+
+dd {
+    background-color: #fff0e0; /* Pale cream */
+    padding: 8px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(to right, #b76e79, #cd7f32); /* Rose gold to bronze */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #cd7f32, #4b2e2e); /* Bronze to Cocoa */
+}
+
+/* Video & Audio */
+video, audio {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: #4b2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
